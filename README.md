@@ -86,7 +86,7 @@ Image → Context → Hypothesis → Verification
 Generates text conditioned on verified image embeddings.
 
 ## Results
-* Epoch 2 Generation Loss: **0.8249**
+* Epoch 5 Generation Loss: **0.3054**
 * Reports are fluent and clinically formatted
 * Strong performance on normal cases (clear lungs, no effusion, no pneumothorax)
 * Minor hallucinations observed due to limited training
@@ -94,12 +94,7 @@ Generates text conditioned on verified image embeddings.
 ## Visualizations Included
 * Sample generated report vs ground truth
 * Training loss curve
-* Attention module pipeline diagram
-* Prediction distribution plot (optional)
-
+* Report Length Distribution
+  
 ## Tech Stack
 Python, PyTorch, HuggingFace Transformers (ViT + GPT2), Pandas, PIL
-
----
-
-If you want, I can compress both into **one combined README.md** file for submission.
